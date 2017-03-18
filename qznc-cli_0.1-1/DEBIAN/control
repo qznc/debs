@@ -1,0 +1,9 @@
+Package: qznc-cli
+Version: 0.1-1
+Section: metapackages
+Priority: optional
+Architecture: amd64
+Depends: vim (>=2:7.4), fish (>=2.2), build-essential, git (>=1:2.7), openssh-client, pandoc, htop, python3, tmux, dos2unix, debootstrap, curl, wget, make, ack-grep, bzip2, gnupg, lsb, lsb-release, lshw, lsof, mosh, weechat-curses
+Maintainer: qznc <qznc@web.de>
+Description: Everything qznc needs for his command line
+ Who needs Puppet, if you can build debs?

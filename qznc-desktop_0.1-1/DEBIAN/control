@@ -3,7 +3,7 @@ Version: 0.1-1
 Section: metapackages
 Priority: optional
 Architecture: amd64
-Depends: vim (>=2:7.4), fish (>=2.2), build-essential, fonts-inconsolata, git (>=1:2.7), latexmk, openssh-client, pandoc, htop, python3, tmux
+Depends: vim (>=2:7.4), fish (>=2.2), build-essential, fonts-inconsolata, git (>=1:2.7), latexmk, openssh-client, pandoc, htop, python3, tmux, gitg, gitk, cmake, gtk-recordmydesktop, inkscape, thunderbird, terminator, texlive-full, vlc, xdg-utils, impressive, ubuntu-mate-desktop
 Maintainer: qznc <qznc@web.de>
 Description: Everything qznc needs on his desktop
  Who needs Puppet, if you can build debs?
