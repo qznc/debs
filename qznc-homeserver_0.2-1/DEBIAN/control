@@ -3,7 +3,7 @@ Version: 0.1-1
 Section: metapackages
 Priority: optional
 Architecture: amd64
-Depends: etckeeper, openssh-server, snapd, unattended-upgrades, update-notifier-common, apparmor-utils, ssmtp, mailutils, anacron, cronic, iotop, htop, sysstat, net-tools
+Depends: etckeeper, openssh-server, snapd, unattended-upgrades, update-notifier-common, apparmor-utils, postfix, mailutils, anacron, cronic, iotop, htop, sysstat, net-tools
 Maintainer: qznc <qznc@web.de>
 Description: Everything qznc wants on his homeserver
  Who needs Puppet, if you can build debs?
