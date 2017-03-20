@@ -1,10 +1,10 @@
-default: qznc-desktop_0.1-1.deb qznc-cli_0.1-1.deb qznc-homeserver_0.1-1.deb
+default: qznc-desktop.deb qznc-cli.deb qznc-homeserver.deb
 
-qznc-desktop_0.1-1.deb: qznc-desktop_0.1-1/DEBIAN/control
-	dpkg --build qznc-desktop_0.1-1
+qznc-desktop.deb: qznc-desktop/DEBIAN/control
+	dpkg --build qznc-desktop
 
-qznc-cli_0.1-1.deb: qznc-cli_0.1-1/DEBIAN/control
-	dpkg --build qznc-cli_0.1-1
+qznc-cli.deb: qznc-cli/DEBIAN/control
+	dpkg --build qznc-cli
 
-qznc-homeserver_0.1-1.deb: qznc-homeserver_0.1-1/DEBIAN/control
-	dpkg --build qznc-homeserver_0.1-1
+qznc-homeserver.deb: qznc-homeserver/DEBIAN/control
+	dpkg --build qznc-homeserver
